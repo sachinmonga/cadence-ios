@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD104F351A424F38000AFACD /* iphonemilkyway.png in Resources */ = {isa = PBXBuildFile; fileRef = BD104F341A424F38000AFACD /* iphonemilkyway.png */; };
+		BD104F371A44002E000AFACD /* CadenceSmileyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD104F361A44002E000AFACD /* CadenceSmileyIcon.png */; };
+		BD12922719B253D500B21DAD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD12922519B253D500B21DAD /* LoginViewController.m */; };
+		BD12922819B253D500B21DAD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD12922619B253D500B21DAD /* LoginViewController.xib */; };
+		BD12924419B39FD800B21DAD /* CADgraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD12924319B39FD800B21DAD /* CADgraphViewController.m */; };
+		BD3B0A9A1A42446700A868C6 /* cadenceIconNew120.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3B0A991A42446700A868C6 /* cadenceIconNew120.png */; };
+		BD6F30E019B458DE0053EE22 /* CADsettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F30DE19B458DE0053EE22 /* CADsettingsViewController.m */; };
+		BD6F30E119B458DE0053EE22 /* CADsettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6F30DF19B458DE0053EE22 /* CADsettingsViewController.xib */; };
+		BD6F30E819B55D3C0053EE22 /* CADbardoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F30E619B55D3B0053EE22 /* CADbardoViewController.m */; };
+		BD6F30E919B55D3C0053EE22 /* CADbardoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6F30E719B55D3B0053EE22 /* CADbardoViewController.xib */; };
+		BD6F30ED19B6EEA00053EE22 /* cadenceIconNG58.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6F30EC19B6EEA00053EE22 /* cadenceIconNG58.png */; };
+		BD6F30F019B6EEDC0053EE22 /* cadenceIconNG80.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6F30EE19B6EEDC0053EE22 /* cadenceIconNG80.png */; };
+		BD6F30F119B6EEDC0053EE22 /* cadenceIconNG120.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6F30EF19B6EEDC0053EE22 /* cadenceIconNG120.png */; };
+		BD75ED6D1A3E19AB00BEF3F9 /* calmwater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD75ED6C1A3E19AB00BEF3F9 /* calmwater.jpg */; };
+		BD75ED721A3E208900BEF3F9 /* CADkeyword.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD75ED701A3E208800BEF3F9 /* CADkeyword.xib */; };
+		BD75ED741A3E20AB00BEF3F9 /* CADkeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = BD75ED731A3E20AB00BEF3F9 /* CADkeyword.m */; };
+		BD763F091A40B571001DE333 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD763F071A40B571001DE333 /* Crashlytics.framework */; };
+		BD763F0A1A40B571001DE333 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD763F081A40B571001DE333 /* Fabric.framework */; };
+		BD8BD6AE1A3EB82E00AA7FA2 /* CADiconNew120.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8BD6AD1A3EB82E00AA7FA2 /* CADiconNew120.png */; };
+		BDF8DF7F19A59CC700A3CE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF7E19A59CC700A3CE9F /* Foundation.framework */; };
+		BDF8DF8119A59CC700A3CE9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF8019A59CC700A3CE9F /* CoreGraphics.framework */; };
+		BDF8DF8319A59CC700A3CE9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF8219A59CC700A3CE9F /* UIKit.framework */; };
+		BDF8DF8919A59CC700A3CE9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8DF8719A59CC700A3CE9F /* InfoPlist.strings */; };
+		BDF8DF8B19A59CC700A3CE9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8DF8A19A59CC700A3CE9F /* main.m */; };
+		BDF8DF8F19A59CC700A3CE9F /* CADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8DF8E19A59CC700A3CE9F /* CADAppDelegate.m */; };
+		BDF8DF9119A59CC700A3CE9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF8DF9019A59CC700A3CE9F /* Images.xcassets */; };
+		BDF8DF9819A59CC700A3CE9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF9719A59CC700A3CE9F /* XCTest.framework */; };
+		BDF8DF9919A59CC700A3CE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF7E19A59CC700A3CE9F /* Foundation.framework */; };
+		BDF8DF9A19A59CC700A3CE9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DF8219A59CC700A3CE9F /* UIKit.framework */; };
+		BDF8DFA219A59CC700A3CE9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8DFA019A59CC700A3CE9F /* InfoPlist.strings */; };
+		BDF8DFA419A59CC700A3CE9F /* Cadence2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8DFA319A59CC700A3CE9F /* Cadence2Tests.m */; };
+		BDF8DFB019A59CF500A3CE9F /* CADinputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8DFAE19A59CF500A3CE9F /* CADinputViewController.m */; };
+		BDF8DFB119A59CF500A3CE9F /* CADinputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF8DFAF19A59CF500A3CE9F /* CADinputViewController.xib */; };
+		BDF8DFBC19AAB27F00A3CE9F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFBA19AAB27F00A3CE9F /* Bolts.framework */; };
+		BDF8DFBD19AAB27F00A3CE9F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFBB19AAB27F00A3CE9F /* Parse.framework */; };
+		BDF8DFBF19AAB2C000A3CE9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFBE19AAB2C000A3CE9F /* AudioToolbox.framework */; };
+		BDF8DFC119AAB2D200A3CE9F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFC019AAB2D200A3CE9F /* CFNetwork.framework */; };
+		BDF8DFC319AAB2E100A3CE9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFC219AAB2E100A3CE9F /* CoreLocation.framework */; };
+		BDF8DFC519AAB2ED00A3CE9F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFC419AAB2ED00A3CE9F /* libz.dylib */; };
+		BDF8DFC719AAB2F500A3CE9F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFC619AAB2F500A3CE9F /* MobileCoreServices.framework */; };
+		BDF8DFC919AAB2FD00A3CE9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFC819AAB2FD00A3CE9F /* QuartzCore.framework */; };
+		BDF8DFCB19AAB30400A3CE9F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFCA19AAB30400A3CE9F /* Security.framework */; };
+		BDF8DFCD19AAB30B00A3CE9F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFCC19AAB30B00A3CE9F /* StoreKit.framework */; };
+		BDF8DFCF19AAB31300A3CE9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFCE19AAB31300A3CE9F /* SystemConfiguration.framework */; };
+		BDF8DFDD19AC412700A3CE9F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFDC19AC412700A3CE9F /* FacebookSDK.framework */; };
+		BDF8DFDF19AC42E900A3CE9F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8DFDE19AC42E900A3CE9F /* ParseFacebookUtils.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF8DF9B19A59CC700A3CE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF8DF7319A59CC700A3CE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF8DF7A19A59CC700A3CE9F;
+			remoteInfo = Cadence2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD104F341A424F38000AFACD /* iphonemilkyway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonemilkyway.png; sourceTree = "<group>"; };
+		BD104F361A44002E000AFACD /* CadenceSmileyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CadenceSmileyIcon.png; sourceTree = "<group>"; };
+		BD12922419B253D500B21DAD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BD12922519B253D500B21DAD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BD12922619B253D500B21DAD /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BD12924219B39FD800B21DAD /* CADgraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADgraphViewController.h; sourceTree = "<group>"; };
+		BD12924319B39FD800B21DAD /* CADgraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADgraphViewController.m; sourceTree = "<group>"; };
+		BD3B0A991A42446700A868C6 /* cadenceIconNew120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenceIconNew120.png; sourceTree = "<group>"; };
+		BD6F30DD19B458DE0053EE22 /* CADsettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADsettingsViewController.h; sourceTree = "<group>"; };
+		BD6F30DE19B458DE0053EE22 /* CADsettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADsettingsViewController.m; sourceTree = "<group>"; };
+		BD6F30DF19B458DE0053EE22 /* CADsettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CADsettingsViewController.xib; sourceTree = "<group>"; };
+		BD6F30E519B55D3B0053EE22 /* CADbardoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADbardoViewController.h; sourceTree = "<group>"; };
+		BD6F30E619B55D3B0053EE22 /* CADbardoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADbardoViewController.m; sourceTree = "<group>"; };
+		BD6F30E719B55D3B0053EE22 /* CADbardoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CADbardoViewController.xib; sourceTree = "<group>"; };
+		BD6F30EB19B6ED690053EE22 /* cadenceIcon */ = {isa = PBXFileReference; lastKnownFileType = file; name = cadenceIcon; path = "../../../Desktop/Code/Cadence iOS/cadenceIcon"; sourceTree = "<group>"; };
+		BD6F30EC19B6EEA00053EE22 /* cadenceIconNG58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenceIconNG58.png; sourceTree = "<group>"; };
+		BD6F30EE19B6EEDC0053EE22 /* cadenceIconNG80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenceIconNG80.png; sourceTree = "<group>"; };
+		BD6F30EF19B6EEDC0053EE22 /* cadenceIconNG120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenceIconNG120.png; sourceTree = "<group>"; };
+		BD75ED6C1A3E19AB00BEF3F9 /* calmwater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calmwater.jpg; sourceTree = "<group>"; };
+		BD75ED701A3E208800BEF3F9 /* CADkeyword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CADkeyword.xib; sourceTree = "<group>"; };
+		BD75ED731A3E20AB00BEF3F9 /* CADkeyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADkeyword.m; sourceTree = "<group>"; };
+		BD75ED751A3E20BA00BEF3F9 /* CADkeyword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADkeyword.h; sourceTree = "<group>"; };
+		BD763F071A40B571001DE333 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		BD763F081A40B571001DE333 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		BD8BD6AD1A3EB82E00AA7FA2 /* CADiconNew120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CADiconNew120.png; sourceTree = "<group>"; };
+		BDF8DF7B19A59CC700A3CE9F /* Cadence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8DF7E19A59CC700A3CE9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDF8DF8019A59CC700A3CE9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDF8DF8219A59CC700A3CE9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDF8DF8619A59CC700A3CE9F /* Cadence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cadence-Info.plist"; sourceTree = "<group>"; };
+		BDF8DF8819A59CC700A3CE9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8DF8A19A59CC700A3CE9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF8DF8C19A59CC700A3CE9F /* Cadence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cadence-Prefix.pch"; sourceTree = "<group>"; };
+		BDF8DF8D19A59CC700A3CE9F /* CADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADAppDelegate.h; sourceTree = "<group>"; };
+		BDF8DF8E19A59CC700A3CE9F /* CADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADAppDelegate.m; sourceTree = "<group>"; };
+		BDF8DF9019A59CC700A3CE9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDF8DF9619A59CC700A3CE9F /* CadenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8DF9719A59CC700A3CE9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDF8DF9F19A59CC700A3CE9F /* CadenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CadenceTests-Info.plist"; sourceTree = "<group>"; };
+		BDF8DFA119A59CC700A3CE9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8DFA319A59CC700A3CE9F /* Cadence2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cadence2Tests.m; sourceTree = "<group>"; };
+		BDF8DFAD19A59CF500A3CE9F /* CADinputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADinputViewController.h; sourceTree = "<group>"; };
+		BDF8DFAE19A59CF500A3CE9F /* CADinputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADinputViewController.m; sourceTree = "<group>"; };
+		BDF8DFAF19A59CF500A3CE9F /* CADinputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CADinputViewController.xib; sourceTree = "<group>"; };
+		BDF8DFBA19AAB27F00A3CE9F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BDF8DFBB19AAB27F00A3CE9F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BDF8DFBE19AAB2C000A3CE9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BDF8DFC019AAB2D200A3CE9F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BDF8DFC219AAB2E100A3CE9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDF8DFC419AAB2ED00A3CE9F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BDF8DFC619AAB2F500A3CE9F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BDF8DFC819AAB2FD00A3CE9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BDF8DFCA19AAB30400A3CE9F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BDF8DFCC19AAB30B00A3CE9F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BDF8DFCE19AAB31300A3CE9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BDF8DFDC19AC412700A3CE9F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		BDF8DFDE19AC42E900A3CE9F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../Downloads/parse-library-1.2.21/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF8DF7819A59CC700A3CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8DFC319AAB2E100A3CE9F /* CoreLocation.framework in Frameworks */,
+				BDF8DFCF19AAB31300A3CE9F /* SystemConfiguration.framework in Frameworks */,
+				BDF8DFCD19AAB30B00A3CE9F /* StoreKit.framework in Frameworks */,
+				BDF8DFCB19AAB30400A3CE9F /* Security.framework in Frameworks */,
+				BDF8DFC919AAB2FD00A3CE9F /* QuartzCore.framework in Frameworks */,
+				BD763F0A1A40B571001DE333 /* Fabric.framework in Frameworks */,
+				BDF8DFC719AAB2F500A3CE9F /* MobileCoreServices.framework in Frameworks */,
+				BDF8DFC519AAB2ED00A3CE9F /* libz.dylib in Frameworks */,
+				BDF8DF8119A59CC700A3CE9F /* CoreGraphics.framework in Frameworks */,
+				BD763F091A40B571001DE333 /* Crashlytics.framework in Frameworks */,
+				BDF8DFC119AAB2D200A3CE9F /* CFNetwork.framework in Frameworks */,
+				BDF8DFBF19AAB2C000A3CE9F /* AudioToolbox.framework in Frameworks */,
+				BDF8DF8319A59CC700A3CE9F /* UIKit.framework in Frameworks */,
+				BDF8DFDD19AC412700A3CE9F /* FacebookSDK.framework in Frameworks */,
+				BDF8DF7F19A59CC700A3CE9F /* Foundation.framework in Frameworks */,
+				BDF8DFBC19AAB27F00A3CE9F /* Bolts.framework in Frameworks */,
+				BDF8DFDF19AC42E900A3CE9F /* ParseFacebookUtils.framework in Frameworks */,
+				BDF8DFBD19AAB27F00A3CE9F /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8DF9319A59CC700A3CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8DF9819A59CC700A3CE9F /* XCTest.framework in Frameworks */,
+				BDF8DF9A19A59CC700A3CE9F /* UIKit.framework in Frameworks */,
+				BDF8DF9919A59CC700A3CE9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD12922919B263F300B21DAD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BD12922419B253D500B21DAD /* LoginViewController.h */,
+				BD12922519B253D500B21DAD /* LoginViewController.m */,
+				BD12922619B253D500B21DAD /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BD6F30E219B458E70053EE22 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BD6F30DD19B458DE0053EE22 /* CADsettingsViewController.h */,
+				BD6F30DE19B458DE0053EE22 /* CADsettingsViewController.m */,
+				BD6F30DF19B458DE0053EE22 /* CADsettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		BD6F30EA19B55D400053EE22 /* Bardo */ = {
+			isa = PBXGroup;
+			children = (
+				BD6F30E519B55D3B0053EE22 /* CADbardoViewController.h */,
+				BD6F30E619B55D3B0053EE22 /* CADbardoViewController.m */,
+				BD6F30E719B55D3B0053EE22 /* CADbardoViewController.xib */,
+			);
+			name = Bardo;
+			sourceTree = "<group>";
+		};
+		BD75ED711A3E208800BEF3F9 /* Keyword */ = {
+			isa = PBXGroup;
+			children = (
+				BD75ED731A3E20AB00BEF3F9 /* CADkeyword.m */,
+				BD75ED751A3E20BA00BEF3F9 /* CADkeyword.h */,
+				BD75ED701A3E208800BEF3F9 /* CADkeyword.xib */,
+			);
+			name = Keyword;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BDF8DF7219A59CC700A3CE9F = {
+			isa = PBXGroup;
+			children = (
+				BD763F071A40B571001DE333 /* Crashlytics.framework */,
+				BD763F081A40B571001DE333 /* Fabric.framework */,
+				BDF8DFBA19AAB27F00A3CE9F /* Bolts.framework */,
+				BDF8DFBB19AAB27F00A3CE9F /* Parse.framework */,
+				BD12922919B263F300B21DAD /* Login */,
+				BDF8DFB619A5B83500A3CE9F /* Input */,
+				BD75ED711A3E208800BEF3F9 /* Keyword */,
+				BD6F30E219B458E70053EE22 /* Settings */,
+				BDF8DFD919AAC1DA00A3CE9F /* Output */,
+				BD6F30EA19B55D400053EE22 /* Bardo */,
+				BDF8DF8419A59CC700A3CE9F /* Cadence2 */,
+				BDF8DF9D19A59CC700A3CE9F /* Cadence2Tests */,
+				BDF8DF7D19A59CC700A3CE9F /* Frameworks */,
+				BDF8DF7C19A59CC700A3CE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF8DF7C19A59CC700A3CE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DF7B19A59CC700A3CE9F /* Cadence.app */,
+				BDF8DF9619A59CC700A3CE9F /* CadenceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF8DF7D19A59CC700A3CE9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DFDE19AC42E900A3CE9F /* ParseFacebookUtils.framework */,
+				BDF8DFDC19AC412700A3CE9F /* FacebookSDK.framework */,
+				BDF8DFCE19AAB31300A3CE9F /* SystemConfiguration.framework */,
+				BDF8DFCC19AAB30B00A3CE9F /* StoreKit.framework */,
+				BDF8DFCA19AAB30400A3CE9F /* Security.framework */,
+				BDF8DFC819AAB2FD00A3CE9F /* QuartzCore.framework */,
+				BDF8DFC619AAB2F500A3CE9F /* MobileCoreServices.framework */,
+				BDF8DFC419AAB2ED00A3CE9F /* libz.dylib */,
+				BDF8DFC219AAB2E100A3CE9F /* CoreLocation.framework */,
+				BDF8DFC019AAB2D200A3CE9F /* CFNetwork.framework */,
+				BDF8DFBE19AAB2C000A3CE9F /* AudioToolbox.framework */,
+				BDF8DF7E19A59CC700A3CE9F /* Foundation.framework */,
+				BDF8DF8019A59CC700A3CE9F /* CoreGraphics.framework */,
+				BDF8DF8219A59CC700A3CE9F /* UIKit.framework */,
+				BDF8DF9719A59CC700A3CE9F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF8DF8419A59CC700A3CE9F /* Cadence2 */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DF8D19A59CC700A3CE9F /* CADAppDelegate.h */,
+				BDF8DF8E19A59CC700A3CE9F /* CADAppDelegate.m */,
+				BDF8DF9019A59CC700A3CE9F /* Images.xcassets */,
+				BD8BD6AD1A3EB82E00AA7FA2 /* CADiconNew120.png */,
+				BDF8DF8519A59CC700A3CE9F /* Supporting Files */,
+			);
+			path = Cadence2;
+			sourceTree = "<group>";
+		};
+		BDF8DF8519A59CC700A3CE9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B0A991A42446700A868C6 /* cadenceIconNew120.png */,
+				BD104F341A424F38000AFACD /* iphonemilkyway.png */,
+				BD104F361A44002E000AFACD /* CadenceSmileyIcon.png */,
+				BD6F30EE19B6EEDC0053EE22 /* cadenceIconNG80.png */,
+				BD6F30EF19B6EEDC0053EE22 /* cadenceIconNG120.png */,
+				BD6F30EC19B6EEA00053EE22 /* cadenceIconNG58.png */,
+				BD75ED6C1A3E19AB00BEF3F9 /* calmwater.jpg */,
+				BD6F30EB19B6ED690053EE22 /* cadenceIcon */,
+				BDF8DF8619A59CC700A3CE9F /* Cadence-Info.plist */,
+				BDF8DF8719A59CC700A3CE9F /* InfoPlist.strings */,
+				BDF8DF8A19A59CC700A3CE9F /* main.m */,
+				BDF8DF8C19A59CC700A3CE9F /* Cadence-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF8DF9D19A59CC700A3CE9F /* Cadence2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DFA319A59CC700A3CE9F /* Cadence2Tests.m */,
+				BDF8DF9E19A59CC700A3CE9F /* Supporting Files */,
+			);
+			path = Cadence2Tests;
+			sourceTree = "<group>";
+		};
+		BDF8DF9E19A59CC700A3CE9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DF9F19A59CC700A3CE9F /* CadenceTests-Info.plist */,
+				BDF8DFA019A59CC700A3CE9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF8DFB619A5B83500A3CE9F /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8DFAD19A59CF500A3CE9F /* CADinputViewController.h */,
+				BDF8DFAE19A59CF500A3CE9F /* CADinputViewController.m */,
+				BDF8DFAF19A59CF500A3CE9F /* CADinputViewController.xib */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		BDF8DFD919AAC1DA00A3CE9F /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				BD12924219B39FD800B21DAD /* CADgraphViewController.h */,
+				BD12924319B39FD800B21DAD /* CADgraphViewController.m */,
+			);
+			name = Output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF8DF7A19A59CC700A3CE9F /* Cadence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8DFA719A59CC700A3CE9F /* Build configuration list for PBXNativeTarget "Cadence" */;
+			buildPhases = (
+				BDF8DF7719A59CC700A3CE9F /* Sources */,
+				BDF8DF7819A59CC700A3CE9F /* Frameworks */,
+				BDF8DF7919A59CC700A3CE9F /* Resources */,
+				BD763F061A40B51D001DE333 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cadence;
+			productName = Cadence2;
+			productReference = BDF8DF7B19A59CC700A3CE9F /* Cadence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF8DF9519A59CC700A3CE9F /* CadenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8DFAA19A59CC700A3CE9F /* Build configuration list for PBXNativeTarget "CadenceTests" */;
+			buildPhases = (
+				BDF8DF9219A59CC700A3CE9F /* Sources */,
+				BDF8DF9319A59CC700A3CE9F /* Frameworks */,
+				BDF8DF9419A59CC700A3CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF8DF9C19A59CC700A3CE9F /* PBXTargetDependency */,
+			);
+			name = CadenceTests;
+			productName = Cadence2Tests;
+			productReference = BDF8DF9619A59CC700A3CE9F /* CadenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF8DF7319A59CC700A3CE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sachin;
+				TargetAttributes = {
+					BDF8DF7A19A59CC700A3CE9F = {
+						DevelopmentTeam = 7J35F7B4U8;
+					};
+					BDF8DF9519A59CC700A3CE9F = {
+						TestTargetID = BDF8DF7A19A59CC700A3CE9F;
+					};
+				};
+			};
+			buildConfigurationList = BDF8DF7619A59CC700A3CE9F /* Build configuration list for PBXProject "Cadence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDF8DF7219A59CC700A3CE9F;
+			productRefGroup = BDF8DF7C19A59CC700A3CE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF8DF7A19A59CC700A3CE9F /* Cadence */,
+				BDF8DF9519A59CC700A3CE9F /* CadenceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF8DF7919A59CC700A3CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6F30E119B458DE0053EE22 /* CADsettingsViewController.xib in Resources */,
+				BD104F351A424F38000AFACD /* iphonemilkyway.png in Resources */,
+				BD12922819B253D500B21DAD /* LoginViewController.xib in Resources */,
+				BD75ED721A3E208900BEF3F9 /* CADkeyword.xib in Resources */,
+				BD3B0A9A1A42446700A868C6 /* cadenceIconNew120.png in Resources */,
+				BD6F30E919B55D3C0053EE22 /* CADbardoViewController.xib in Resources */,
+				BD6F30F119B6EEDC0053EE22 /* cadenceIconNG120.png in Resources */,
+				BD104F371A44002E000AFACD /* CadenceSmileyIcon.png in Resources */,
+				BD75ED6D1A3E19AB00BEF3F9 /* calmwater.jpg in Resources */,
+				BD8BD6AE1A3EB82E00AA7FA2 /* CADiconNew120.png in Resources */,
+				BDF8DFB119A59CF500A3CE9F /* CADinputViewController.xib in Resources */,
+				BD6F30ED19B6EEA00053EE22 /* cadenceIconNG58.png in Resources */,
+				BDF8DF8919A59CC700A3CE9F /* InfoPlist.strings in Resources */,
+				BDF8DF9119A59CC700A3CE9F /* Images.xcassets in Resources */,
+				BD6F30F019B6EEDC0053EE22 /* cadenceIconNG80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8DF9419A59CC700A3CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8DFA219A59CC700A3CE9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD763F061A40B51D001DE333 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "./Fabric.framework/run 15aef5b9e3e1f5718cce35dd038d8969588371bf da7d08e4fa60e16f33eef07296660050d487f3cd8f6261b535a8200b30158361";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF8DF7719A59CC700A3CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6F30E019B458DE0053EE22 /* CADsettingsViewController.m in Sources */,
+				BDF8DF8B19A59CC700A3CE9F /* main.m in Sources */,
+				BD12922719B253D500B21DAD /* LoginViewController.m in Sources */,
+				BD12924419B39FD800B21DAD /* CADgraphViewController.m in Sources */,
+				BD75ED741A3E20AB00BEF3F9 /* CADkeyword.m in Sources */,
+				BDF8DFB019A59CF500A3CE9F /* CADinputViewController.m in Sources */,
+				BD6F30E819B55D3C0053EE22 /* CADbardoViewController.m in Sources */,
+				BDF8DF8F19A59CC700A3CE9F /* CADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8DF9219A59CC700A3CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8DFA419A59CC700A3CE9F /* Cadence2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF8DF9C19A59CC700A3CE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF8DF7A19A59CC700A3CE9F /* Cadence */;
+			targetProxy = BDF8DF9B19A59CC700A3CE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF8DF8719A59CC700A3CE9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8DF8819A59CC700A3CE9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDF8DFA019A59CC700A3CE9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8DFA119A59CC700A3CE9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF8DFA519A59CC700A3CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDF8DFA619A59CC700A3CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF8DFA819A59CC700A3CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/sachinmonga/Documents/FacebookSDK,
+					"/Users/sachinmonga/Downloads/parse-library-1.2.21",
+					/Users/sachinmonga/Downloads/AerisiOS_1.1.84,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cadence2/Cadence-Prefix.pch";
+				INFOPLIST_FILE = "Cadence2/Cadence-Info.plist";
+				OTHER_LDFLAGS = "-Obj-C";
+				PRODUCT_NAME = Cadence;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDF8DFA919A59CC700A3CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/sachinmonga/Documents/FacebookSDK,
+					"/Users/sachinmonga/Downloads/parse-library-1.2.21",
+					/Users/sachinmonga/Downloads/AerisiOS_1.1.84,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cadence2/Cadence-Prefix.pch";
+				INFOPLIST_FILE = "Cadence2/Cadence-Info.plist";
+				OTHER_LDFLAGS = "-Obj-C";
+				PRODUCT_NAME = Cadence;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDF8DFAB19A59CC700A3CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cadence2.app/Cadence2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cadence2/Cadence2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cadence2Tests/CadenceTests-Info.plist";
+				PRODUCT_NAME = CadenceTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDF8DFAC19A59CC700A3CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cadence2.app/Cadence2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cadence2/Cadence2-Prefix.pch";
+				INFOPLIST_FILE = "Cadence2Tests/CadenceTests-Info.plist";
+				PRODUCT_NAME = CadenceTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF8DF7619A59CC700A3CE9F /* Build configuration list for PBXProject "Cadence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8DFA519A59CC700A3CE9F /* Debug */,
+				BDF8DFA619A59CC700A3CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF8DFA719A59CC700A3CE9F /* Build configuration list for PBXNativeTarget "Cadence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8DFA819A59CC700A3CE9F /* Debug */,
+				BDF8DFA919A59CC700A3CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF8DFAA19A59CC700A3CE9F /* Build configuration list for PBXNativeTarget "CadenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8DFAB19A59CC700A3CE9F /* Debug */,
+				BDF8DFAC19A59CC700A3CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF8DF7319A59CC700A3CE9F /* Project object */;
+}
